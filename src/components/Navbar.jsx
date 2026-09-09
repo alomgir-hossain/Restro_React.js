@@ -28,6 +28,7 @@ const Navbar = () => {
                         Book a table
                     </a>
 
+                    {/* menu open icon */}
                     <button onClick={() => setMobileOpen(true)} className='md:hidden bg-zinc-800 text-white p-2 rounded-md aspect-square'>
                         <MenuIcon />
                     </button>
@@ -44,6 +45,8 @@ const Navbar = () => {
                         </a>
 
                     ))}
+
+                    {/* menu close icon */}
                     <button onClick={() => setMobileOpen(false)} className='bg-zinc-800 text-white p-2 rounded-md aspect-square'>
                         <XIcon />
                     </button>
