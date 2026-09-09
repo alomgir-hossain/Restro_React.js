@@ -233,9 +233,9 @@ export const sitemapLinks = [
     { name: "Terms of Service", href: "#" },
 ];
 
-export const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Dishes", href: "#dishes" },
-    { name: "Contact", href: "#timing" },
-    { name: "Faq", href: "#faq" },
-];
+export const navlinks = [
+    {name: "About", href: "#about"},
+    {name: "Dishes", href: "#dishes"},
+    {name: "Contact", href: "#timing"},
+    {name: "Faq", href: "#faq"}
+]
