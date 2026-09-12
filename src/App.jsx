@@ -11,22 +11,24 @@ import TestimonialSection from './sections/TestimonialSection'
 import FAQs from './sections/FAQs'
 import CTA from './sections/CTA'
 import Footer from './components/Footer'
+import LenisScroll from './components/LenisScroll'
 
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <HeroSection/>
-      <About/>
-      <Stats/>
-      <Dishes/>
-      <Features/>
-      <BookingProcess/>
-      <Timing/>
-      <TestimonialSection/>
-      <FAQs/>
-      <CTA/>
-      <Footer/>
+      <LenisScroll />
+      <Navbar />
+      <HeroSection />
+      <About />
+      <Stats />
+      <Dishes />
+      <Features />
+      <BookingProcess />
+      <Timing />
+      <TestimonialSection />
+      <FAQs />
+      <CTA />
+      <Footer />
     </>
   )
 }
